@@ -6,11 +6,12 @@ extern brain Brain;
 extern motor leftmotor;
 extern motor rightmotor;
 extern motor armmotor;
-extern controller Controller1;
 extern motor crabmotor;
+extern bumper limitSwitch;
+extern controller Controller1;
 
 /**
- * Used to initialize code/tasks/devices added using tools in VEXcode Text.
+ * Used to initialize code/tasks/devices added using tools in VEXcode Pro.
  * 
  * This should be called at the start of your int main function.
  */
